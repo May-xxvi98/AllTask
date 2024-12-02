@@ -1,6 +1,6 @@
 package Task120;
 
-public class task120 {
+public class CumulativeSum {
 
     public static void main(String[] args) {
 
@@ -9,9 +9,9 @@ public class task120 {
     System.out.println("Total Sum: "+total);
     }
 
-    public static int cumulativeSum(int num2){
-        int totalSum = 0;
-        for(int num : num2) {
+    public static int cumulativeSum(int[] nums){
+            int totalSum = 0;
+            for(int num : nums) {
             int cumulativeSum = 0;
             for (int i=1; i<=num; i++){
                 cumulativeSum += i;
