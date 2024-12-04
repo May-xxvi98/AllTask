@@ -1,20 +1,20 @@
 
 public class DateTask {
-   // instance variables
+   
  byte day;
  byte month;
  short year;
-// Constructors:
 
-// The no-args constructor
+
+
 public DateTask() {
     
 }
-// Constructor that takes 3 arguments
+
 public DateTask(int m, int d, int y) {
     setDate(m, d, y);
 }
-// Methods
+
 public String toString() {
     return month + "-" + day + "-" + year;
 }
